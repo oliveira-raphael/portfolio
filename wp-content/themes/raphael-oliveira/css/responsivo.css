@@ -1,0 +1,161 @@
+/*
+Responsive CSS
+*/
+@media screen and (max-width: 1200px){
+/* Padrões */
+
+/* Header */
+
+/* Menu Principal*/
+#mainmenu{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    padding: 15px;
+    background: #092228;
+    top: 0;
+    right: -300px;
+    z-index: 1;
+    transition: 2s;
+}
+.fechar-mobile {
+    display: inline-block !important;
+}
+.menu-mobile {
+    display: block;
+}
+#mainmenu ul{
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+#mainmenu ul li{
+    display: block;
+}
+#home-section-3 {
+    margin-top: 0;
+    padding-top: 50px;
+}
+#mainmenu ul li a::after {
+    margin: 2px 0 0 auto;
+}
+#mainmenu ul li a:hover::after, #mainmenu ul li.current-menu-item a::after {
+    width: 50%;
+}
+/* Slide Show */
+
+
+/* Produto */
+
+/* Sidebar */
+
+/* Rodapé */
+
+/* WooCommerce */
+.woocommerce ul.products li.product .onsale {
+    z-index: 0;
+}
+
+/* Page Home */
+}
+@media screen and (max-width: 1000px){
+/* Padrões */
+
+/* Header */
+
+/* Menu Principal*/
+#mainmenu {
+    z-index: 1;
+}
+.menu-mobile {
+    display: block;
+}
+#mainmenu ul li {
+    display: block;
+}
+#mainmenu ul {
+    width: auto;
+    margin: 0;
+}
+
+/* Slide Show */
+.slide-filtro {
+    padding-bottom: 48%;
+}
+
+/* Produto */
+
+/* Sidebar */
+
+/* Rodapé */
+
+/* WooCommerce */
+
+/* Page Home */
+}
+@media screen and (max-width: 768px){
+/* Padrões */
+
+/* Header */
+
+/* Menu Principal*/
+
+/* Slide Show */
+.slide-filtro {
+    padding-bottom: 65%;
+}
+/* Produto */
+
+/* Sidebar */
+
+/* Rodapé */
+
+/* WooCommerce */
+
+/* Page Home */
+}
+@media screen and (max-width: 575px){
+/* Padrões */
+
+/* Header */
+#masterhead .searchform {
+    float: none !important;
+    margin: auto;
+    display: none;
+}
+#masterhead .col-sm {
+    text-align: center;
+}
+
+/* Menu Principal*/
+
+/* Slide Show */
+.slide-filtro {
+    padding-bottom: 100%;
+}
+.slide-conteudo {
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Produto */
+
+/* Sidebar */
+
+/* Rodapé */
+#copy .textleft, #copy .textright {
+    text-align: center;
+    padding: 5px;
+}
+
+/* WooCommerce */
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.woocommerce table.cart td.actions .coupon .input-text+.button{
+    width: 100%;
+}
+
+/* Page Home */
+}

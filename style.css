@@ -1,0 +1,16 @@
+@import url(./styles.css/header.css);
+
+:root {
+    --fonte-principal: 'Mukta';
+    --preto: #040404;
+    --roxo: #765cf7;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+

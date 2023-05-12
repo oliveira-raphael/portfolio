@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Raphael Oliveira - Dev Front-End</title>
+    <title>Portfólio Raphael Oliveira - Desenvolvedor Front End</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap" rel="stylesheet">
@@ -14,27 +14,106 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="#">
-            <img src="img/logotipo-raphael-oliveira-2.png" alt="Logotipo Raphael Oliveira">
-        </a>
-        <input type="checkbox" id="menu-hamburger" class="cabecalho__input">
-        <label for="menu-hamburger">
-            <span class="cabecalho__menu-hamburger"></span>
-        </label>   
-        <ul class="lista-menu">
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Home</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Sobre mim</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Projetos</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Contato</a>
-            </li>
-        </ul> 
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabelho__menu--hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="http://localhost/dev/portfolio/" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#sobre-mim" class="lista-menu__link">Sobre Mim</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#projetos" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#contato" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+            <img src="./img/logotipo-raphael-oliveira-3.png" alt="Logo Raphael Oliveira" class="container__imagem">
+            <ul class="opcoes">
+                <ul class="opcoes__menu">
+                    <li class="opcoes__menu__item">
+                        <a href="http://localhost/dev/portfolio/" class="opcoes__menu__link">Home</a>
+                    </li>
+                    <li class="opcoes__menu__item">
+                        <a href="#sobre-mim" class="opcoes__menu__link">Sobre Mim</a>
+                    </li>
+                    <li class="opcoes__menu__item">
+                        <a href="#projetos" class="opcoes__menu__link">Projetos</a>
+                    </li>
+                    <li class="opcoes__menu__item">
+                        <a href="#contato" class="opcoes__menu__link">Contato</a>
+                    </li>
+                </ul>
+            </ul>
+        </div>  
     </header>
+    <hr/>
+    <section class="banner">
+        <img src="./img/banner-portfolio.png" alt="" class="banner__imagem">
+    </section>
+    <hr/>
+    <section id="sobre-mim" class="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre Mim</h2>
+        <div class="sobre-mim__flex">
+            <img src="img/perfil.png" alt="Foto de perfil Raphael Oliveira" class="sobre-mim__imagem">
+            <div>
+                <p class="sobre-mim__texto">
+                    Olá, meu nome é Raphael Oliveira e sou desenvolvedor de sites há 2 anos. Com uma paixão pelo design e tecnologia, decidi seguir minha carreira na área de desenvolvimento web. Atualmente, domino as tecnologias HTML, CSS, Flexbox, Grid e WordPress e estou aprendendo JavaScript e PHP para expandir ainda mais meus conhecimentos e habilidades.
+                </p>
+                <p class="sobre-mim__texto">
+                    Com um olhar atento aos detalhes, adoro criar sites bonitos, funcionais e eficazes, que atendam às necessidades e expectativas dos meus clientes. Além disso, estou sempre em busca de aprimoramento e aprendizado contínuo para me manter atualizado com as últimas tendências e técnicas no mundo do desenvolvimento web.
+                </p>    
+                <p class="sobre-mim__texto">
+                    Se você precisa de um site que impressione seus clientes e atinja seus objetivos, conte comigo para desenvolvê-lo. Vamos trabalhar juntos para criar um site que atenda às suas expectativas e ajude a impulsionar seu negócio! Entre em contato comigo para discutirmos suas ideias e necessidades.
+                </p> 
+            </div>       
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos__titulo">Últimos Projetos</h2>
+        <div class="projetos__imagens">
+            <ul class="projetos__lista">
+                <li class="projetos__lista-item">
+                    <img src="./img/barbosaassessoria.png" alt="Imagem do Site criado para a Assessoria Barbosa" class="projetos__imagem">
+                    <a href="https://barbosaassessoria.com.br/" class="projetos__link">Ver Projeto </a>
+                </li> 
+                <li class="projetos__lista-item">
+                    <img src="./img/sbth.png" alt="Imagem do Site criado para a Assessoria Barbosa" class="projetos__imagem">
+                    <a href="https://sbth.org.br/" class="projetos__link">Ver Projeto </a>
+                </li> 
+                <li class="projetos__lista-item">
+                    <img src="./img/we.png" alt="Imagem do Site criado para a Assessoria Barbosa" class="projetos__imagem">
+                    <a href="https://wegrafica.com.br/" class="projetos__link">Ver Projeto </a>
+                </li> 
+                <li class="projetos__lista-item">
+                    <img src="./img/jmv.png" alt="Imagem do Site criado para a Assessoria Barbosa" class="projetos__imagem">
+                    <a href="https://jmvrepresentacoes.com/" class="projetos__link">Ver Projeto </a>
+                </li> 
+            </ul>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <h2 class="contato__titulo">Contato</h2>
+        <ul class="contato__lista">
+            <li class="contato__lista-item">
+                <a href="https://github.com/oliveira-raphael" class="contato__lista-link" target="_blank"><img src="./img/github.png" alt="logotipo do Github" class="contato__lista-imagem"></a>
+            </li>
+            <li class="contato__lista-item">
+                <a href="https://www.linkedin.com/in/raphael-oliveira-71aa201b5/" class="contaato__lista-link" target="_blank"><img src="./img/linkedin.png" alt="logotipo do LinkdIn" class="contato__lista-imagem"></a>
+            </li>
+            <li class="contato__lista-item">
+                <a href="https://wa.me/5511983735401" class="contato__lista-link" target="_blank"><img src="./img/whatsapp.png" alt="Logotipo do WhatsApp" class="contato__lista-imagem"></a>
+            </li>
+        </ul>
+    </section>
+    <hr/>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Raphael Oliveira © 2023. Todos os direitos reservados.</h2>
+    </footer>
 </body>
 </html>

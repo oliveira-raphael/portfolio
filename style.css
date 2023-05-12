@@ -1,4 +1,9 @@
 @import url(./styles.css/header.css);
+@import url(./styles.css/banner.css);
+@import url(./styles.css/sobre-mim.css);
+@import url(./styles.css/projetos.css);
+@import url(./styles.css/contato.css);
+@import url(./styles.css/footer.css);
 
 :root {
     --fonte-principal: 'Mukta';

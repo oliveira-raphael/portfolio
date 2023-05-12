@@ -1,0 +1,33 @@
+.contato__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--roxo);
+    padding: 1.5em 0 1em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contato__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.contato__lista-item {
+    color: var(--roxo);
+    padding:  0 2em 2em 2em;
+}
+
+.contato__lista-imagem {
+    transition: all 0.5s;
+}
+
+.contato__lista-imagem:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+    .contato__titulo {
+        font-size: 26px;
+    }
+}

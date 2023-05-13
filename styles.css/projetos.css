@@ -6,7 +6,7 @@
     font-size: 22px;
     font-weight: 700;
     color: var(--preto);
-    padding: 1.5em 0 1em 0;
+    padding: 1.5em 0 2em 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -54,9 +54,6 @@
     .projetos__link {
         font-size: 22px;
     }
-}
-
-@media screen and (min-width: 1024px) {
     .projetos__lista {
         display: flex;
         flex-wrap: wrap;
@@ -67,3 +64,4 @@
         width: 40%;
     }
 }
+

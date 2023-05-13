@@ -64,9 +64,14 @@
     display: none;
 }
 
+.banner__imagem-desktop {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .cabelho__menu--hamburguer,
-    .container__botao {
+    .container__botao,
+    .banner__imagem-mobile {
         display: none;
     }
 
@@ -85,5 +90,9 @@
     .container {
         justify-content: center;
     
+    }
+
+    .banner__imagem-desktop{
+        display: block;
     }
 }
